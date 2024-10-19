@@ -1,0 +1,96 @@
+.tab{
+    border: 2px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    background-color: rgb(47, 135, 211);
+}
+
+.head{
+    opacity: 1;
+    animation: fade 2s linear;
+    animation-iteration-count: infinite;
+    color: rgb(255, 119, 0);
+    }
+    
+    
+    @keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+    }
+
+    .desc{
+        /* animation: ; */
+    animation: fade 5s linear;
+        animation-name: desc;
+        animation-iteration-count: infinite;
+        border-radius: 5px;
+    }
+
+
+    @keyframes desc{
+        0% {background-color: rgb(220, 116, 31);}
+        20% {background-color: aqua;}
+        40% {background-color: rgb(198, 28, 241);}
+        60% {background-color: rgb(38, 212, 38);}
+        80% {background-color: rgb(187, 148, 187);}
+        100% {background-color: snow;}
+    }
+
+
+    .sec_tr:hover{
+       
+        background-color: rgb(110, 195, 241);
+    }
+
+    .fir_tr:hover{
+        
+        background-color: rgb(241, 110, 184);
+    }
+
+    .menu{
+        animation: fade 2s linear;
+       color: rgb(25, 23, 23);
+       /* background-color: deepskyblue; */
+        animation-name: menu;
+        animation-iteration-count: infinite;
+      
+    }
+
+
+    @keyframes menu{
+        0% {color: rgb(241, 106, 106);}
+        20% {color: rgb(213, 148, 213);}
+        40% {color: beige;}
+        60% {color: rgb(233, 166, 42);}
+        80% {color: rgb(187, 148, 187);}
+        100% {color: rgb(36, 237, 217);}
+    }
+
+    .disc:hover{
+        color: red;
+    }
+    .img1:hover{
+        transform: scale(1.3);
+        transition-duration: 3s;
+    }
+
+    .img2:hover{
+        
+        transform: rotate(360deg);
+        transition-duration: 6s;
+    }
+
+    .img3:hover{
+       
+        transform: rotateX(360deg);
+        transition-duration: 6s;
+    }
+
+    .img4:hover{
+      
+        transform: rotateY(360deg);
+        transition-duration: 6s;
+    }
+    /* #t_tr{
+        background-color: rgb(231, 172, 176);
+    } */
